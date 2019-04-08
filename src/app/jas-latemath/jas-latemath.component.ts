@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JasLatemathComponent implements OnInit {
 
+  numberOne = 10;
+  numberTwo = 20;
+  answer = 30;
+  addNumbers = () => {
+  	this.answer = this.numberOne + this.numberTwo;
+  }
+
   constructor() { }
 
   ngOnInit() {
